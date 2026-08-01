@@ -1,0 +1,39 @@
+baseURL = 'https://thecore.studio/'
+locale = 'it-it'
+title = 'TheCore Studio'
+theme = 'thecore'
+defaultContentLanguage = 'it'
+defaultContentLanguageInSubdir = false
+
+[params]
+  description = 'Piccole classi, istruttori preparati, attrezzatura completa. Il centro da cui parte il movimento.'
+  brandName = 'TheCore Studio'
+  brandTagline = 'Il centro da cui parte il movimento'
+
+[languages]
+  [languages.it]
+    title = 'TheCore Studio'
+    label = 'Italiano'
+    weight = 1
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Classi'
+    pageRef = '/classi'
+    weight = 2
+  [[menu.main]]
+    name = 'Chi siamo'
+    pageRef = '/chi-siamo'
+    weight = 3
+  [[menu.main]]
+    name = 'Contatti'
+    pageRef = '/contatti'
+    weight = 4

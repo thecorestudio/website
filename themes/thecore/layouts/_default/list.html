@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <p class="caption mb-lg">{{ T "classesLabel" }}</p>
+      <h1>{{ .Title }}</h1>
+      <div class="grid grid--2 mt-xl">
+        {{ range .Pages.ByWeight }}
+          <article class="card">
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Description }}</p>
+            <p class="mt-xl">
+              <a href="{{ .RelPermalink }}" class="btn btn--ghost">{{ T "readMore" }}</a>
+            </p>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

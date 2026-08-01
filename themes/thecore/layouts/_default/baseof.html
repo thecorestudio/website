@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale | default "it" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:type" content="website">
+  {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ block "head" . }}{{ end }}
+</head>
+<body>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__row">
+        <span>TheCore Studio</span>
+        <span class="site-footer__sep">·</span>
+        <span>Piccole classi, istruttori preparati</span>
+        <span class="site-footer__sep">·</span>
+        <span>Santa Maria delle Mole</span>
+      </div>
+      <div class="site-footer__row">
+        <a href="tel:+390612345678">+39 06 1234 5678</a>
+        <span class="site-footer__sep">·</span>
+        <a href="mailto:info@thecore.studio">info@thecore.studio</a>
+        <span class="site-footer__sep">·</span>
+        <span>Via del Centro, 15 — Santa Maria delle Mole</span>
+      </div>
+      <div>© {{ now.Format "2006" }} TheCore Studio</div>
+    </div>
+  </footer>
+</body>
+</html>

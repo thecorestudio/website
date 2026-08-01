@@ -1,0 +1,48 @@
+# TheCore Studio — Italian translations
+# Voice: warm, plain, unhurried, informal "tu"
+
+allRightsReserved: "Tutti i diritti riservati"
+
+# Navigation
+navHome: "Home"
+navClasses: "Classi"
+navAbout: "Chi siamo"
+navContact: "Contatti"
+
+# Homepage — Hero
+studioTagline: "Pilates studio · Santa Maria delle Mole"
+heroSubtitle: "Piccole classi, istruttori preparati, attrezzatura completa oltre il Reformer. Il centro da cui parte il movimento."
+ctaClasses: "Scopri le classi"
+ctaContact: "Parlane con noi"
+
+# Homepage — Philosophy
+philosophyLabel: "Filosofia"
+philosophyTitle: "Ti seguiamo corpo per corpo"
+philosophyText: "Non sei un numero. In ogni classe troviamo il gesto giusto per te, senza fretta."
+philosophyCard1Title: "Gruppi piccoli"
+philosophyCard1Text: "Da 10 a 12 persone per classe. Abbiamo il tempo di guardarti, correggerti, capire dove sei."
+philosophyCard2Title: "Istruttori preparati"
+philosophyCard2Text: "Formazione continua, studio del movimento, attenzione a ogni corpo. Non si improvvisa."
+philosophyCard3Title: "Attrezzatura completa"
+philosophyCard3Text: "Reformer, Cadillac, Chair, Barrel e piccoli attrezzi. Ogni esercizio ha lo strumento giusto."
+
+# Homepage — Approach
+approachLabel: "Il nostro metodo"
+approachTitle: "Persona prima, esercizio dopo"
+approachItem1Title: "Accoglienza"
+approachItem1Text: "La prima volta ti accogliamo, ascoltiamo quello che porti, e costruiamo un percorso su di te."
+approachItem2Title: "Presenza"
+approachItem2Text: "Non lasciamo mai la classe. Ogni movimento ha una guida che vede, aggiusta, incoraggia."
+approachItem3Title: "Progresso"
+approachItem3Text: "Celebriamo i tuoi miglioramenti, non confrontiamo i corpi. Oggi hai tenuto la posizione più a lungo. Si vede."
+
+# Classi
+classesLabel: "Classi"
+readMore: "Leggi di più"
+
+# About
+aboutLabel: "Chi siamo"
+
+# Contact
+contactLabel: "Contatti"
+pageLabel: "Pagina"

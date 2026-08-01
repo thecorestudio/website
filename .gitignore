@@ -1,0 +1,26 @@
+# ── Hugo build output ───────────────────────────────
+public/
+resources/_gen/
+resources/_gen/.*
+
+# Hugo lock files
+.hugo_build.lock
+
+# ── Dependencies & build tooling ────────────────────
+node_modules/
+
+# ── Environment & secrets ───────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ── Editors / IDEs ──────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

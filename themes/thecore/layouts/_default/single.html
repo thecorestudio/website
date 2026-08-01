@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <p class="caption mb-lg">{{ if eq .Section "classi" }}{{ T "classesLabel" }}{{ else }}{{ T "pageLabel" }}{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+      <div class="page-content mt-xl">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+{{ end }}
