@@ -596,6 +596,7 @@ p {
 
 .cta-final h2 em {
   font-style: italic;
+  color: var(--accent-calm);
 }
 
 .cta-final p {
