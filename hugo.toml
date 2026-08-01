@@ -1,4 +1,4 @@
-baseURL = 'https://thecore.studio/'
+baseURL = 'https://thecorestudio.github.io/website/'
 locale = 'it-it'
 title = 'TheCore Studio'
 theme = 'thecore'
