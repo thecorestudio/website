@@ -44,6 +44,7 @@
   --accent:       #C06B47;      /* terracotta — CTA only */
   --accent-hover: #A85638;
   --accent-calm:  #8A9079;      /* sage — calm accents */
+  --accent-calm-hover: #757B66; /* sage, darker — hover */
 
   /* type */
   --font-display: 'Cormorant Garamond', serif;
@@ -648,6 +649,17 @@ p {
 .btn--dark:hover {
   background: #1A1612;
   color: #FBEEE6;
+}
+
+.btn--sage {
+  background: var(--accent-calm);
+  color: #FBEEE6;
+}
+
+.btn--sage:hover {
+  background: var(--accent-calm-hover);
+  color: #FBEEE6;
+  transform: translateY(-1px);
 }
 
 .btn--ghost-dark {
