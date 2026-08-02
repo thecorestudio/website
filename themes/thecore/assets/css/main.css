@@ -283,7 +283,7 @@ p {
 
 .hero__display em {
   font-style: italic;
-  color: #FBEEE6;
+  color: var(--accent-calm);
 }
 
 .hero__sub {
