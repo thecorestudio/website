@@ -6,9 +6,9 @@ defaultContentLanguage = 'it'
 defaultContentLanguageInSubdir = false
 
 [params]
-  description = 'Piccole classi, istruttori preparati, attrezzatura completa. Il centro da cui parte il movimento.'
+  description = 'Piccole classi di pilates a Santa Maria delle Mole, nel cuore dei Castelli Romani. Istruttrici che ti seguono davvero e un’attrezzatura completa: dal lavoro a terra con tappetino e piccoli attrezzi, fino al reformer e agli altri grandi attrezzi della disciplina.'
   brandName = 'TheCore Studio'
-  brandTagline = 'Il centro da cui parte il movimento'
+  brandTagline = 'Vieni come sei. Il resto lo costruiamo insieme'
 
 [languages]
   [languages.it]
