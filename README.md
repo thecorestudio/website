@@ -93,5 +93,5 @@ The site is configured for `https://thecore.studio/` (`baseURL` in `hugo.toml`).
 
 ## Notes
 
-- Contact details (email, address) in the footer and homepage are **placeholder values** — replace them with real studio details before launch. The studio has no phone line, so contact is email-only by design.
+- Contact details (email, phone, address) in the footer and homepage are **placeholder values** — replace them with real studio details before launch.
 - Theme-level config (Hugo version requirement) lives in `themes/thecore/hugo.toml`.
