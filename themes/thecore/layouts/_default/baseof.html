@@ -8,6 +8,8 @@
   <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="{{ relURL "images/logo-mark.svg" }}">
+  <link rel="alternate icon" href="{{ relURL "favicon.ico" }}">
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   {{ block "head" . }}{{ end }}
