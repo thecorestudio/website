@@ -12,7 +12,10 @@
         <span class="hero__wordmark-sub">Studio</span>
       </span>
     </a>
-    <a href="mailto:info@thecore.fitness" class="hero__cta-link">Prenota una lezione</a>
+    <div class="hero__nav-links">
+      <a href="{{ site.Params.appURL }}" class="hero__cta-link">Vai alla nostra app</a>
+      <a href="mailto:info@thecore.fitness" class="hero__cta-link">Prenota una lezione</a>
+    </div>
   </nav>
 
   <div class="hero__content">
@@ -21,7 +24,10 @@
   </div>
 
   <div class="hero__action">
-    <a href="mailto:info@thecore.fitness" class="btn btn--primary">Vieni a provare</a>
+    <div class="hero__actions">
+      <a href="mailto:info@thecore.fitness" class="btn btn--primary">Vieni a provare</a>
+      <a href="{{ site.Params.appURL }}" class="btn btn--ghost-light">Vai alla nostra app</a>
+    </div>
     <span class="hero__scroll">Scorri</span>
   </div>
 </section>
@@ -136,6 +142,7 @@ possono essere adattati alla persona.</p>
         <div class="cta-final__actions">
           <a href="tel:+393446779089" class="btn btn--sage">Chiamaci</a>
           <a href="mailto:info@thecore.fitness" class="btn btn--ghost-dark">Scrivici</a>
+          <a href="{{ site.Params.appURL }}" class="btn btn--dark">Vai alla nostra app</a>
         </div>
       </div>
     </div>

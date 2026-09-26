@@ -257,6 +257,21 @@ p {
   border-bottom-color: #FBEEE6;
 }
 
+.hero__nav-links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+@media (max-width: 600px) {
+  .hero__nav-links {
+    gap: var(--space-md);
+  }
+  .hero__nav-links .hero__cta-link {
+    font-size: 12px;
+  }
+}
+
 .hero__content {
   position: relative;
   z-index: 2;
@@ -309,10 +324,22 @@ p {
   gap: var(--space-lg);
 }
 
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
 @media (max-width: 768px) {
   .hero__action {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .hero__actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 

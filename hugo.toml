@@ -9,6 +9,7 @@ defaultContentLanguageInSubdir = false
   description = 'Piccole classi di pilates a Santa Maria delle Mole, nel cuore dei Castelli Romani. Istruttrici che ti seguono davvero e un’attrezzatura completa: dal lavoro a terra con tappetino e piccoli attrezzi, fino al reformer e agli altri grandi attrezzi della disciplina.'
   brandName = 'TheCore Studio'
   brandTagline = 'Vieni come sei. Il resto lo costruiamo insieme'
+  appURL = 'https://app.thecore.fitness'
 
 [languages]
   [languages.it]
